@@ -11,7 +11,7 @@ cylinder_r = 1.25;
 scaling = 25.4;
 
 
-scale(scaling, scaling, scaling){
+scale([scaling, scaling, scaling]){
     difference(){
         linear_extrude(height = platform_height)
             rotate(90)
